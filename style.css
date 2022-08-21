@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.map-Container{
+    background-color: #323c55;
+    height: 100vh;
+}
+
+.sidebar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    z-index: 2;
+    width: 20%;
+    height: 95vh;
+    /* background-color: wheat; */
+    padding: 15px;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.search{
+    background: #000000ad;
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    text-align: end;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+    font-size: 10px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+
+
+.video-card{
+    background: black;
+    height: 230px;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.video-card-v{
+    background: red;
+    height: 65%;
+}
+
+.bottom-icon-container{
+    /* background: wheat; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+}
+
+.bottom-icons{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
